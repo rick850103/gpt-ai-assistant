@@ -1,5 +1,5 @@
-import config from '../../config/index.js';
-import { t } from '../../locales/index.js';
+import config from '../config/index.js';
+import { t } from '../locales/index.js';
 import { ROLE_AI, ROLE_HUMAN } from '../../services/openai.js';
 import { generateCompletion } from '../../utils/index.js';
 import Context from '../context.js';
